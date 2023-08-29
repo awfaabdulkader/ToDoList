@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right, #4a90e2, #8e8e93);
+  }
+  #divList{ 
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    padding-top: 11rem;
+  }
+  #titlediv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 7rem;
+    color: white;
+    font-family: cursive;
+  }
+#taskInput{
+    border: none;
+    width: 19rem;
+    height: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    word-wrap: break-word;
+    
+}
+#taskInput[type="text"]{
+    outline: none;
+}
+#taskInput::placeholder{
+    text-align: center;
+}
+#btnAdd{
+    border: none;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.9rem;
+    background: #4a90e2;
+    position:relative;
+    right: 2.9rem;
+    cursor: pointer;
+   
+}
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+.testI {
+  position: relative;
+  top: -0.5rem;
+}
+.btnLi{
+  margin-top: 1rem;
+    display: flex;
+    background-color: white;
+    border-radius: 0.5rem;
+   
+}
+    
+    
+
+#taskList{
+  
+    margin-top: 2rem;
+    width: 22rem;
+    height: 12REM;
+    position: relative;
+    top: 3rem;
+    left: 36.5rem;
+    border-radius: 2rem;
+    
+}
+.listLi{
+    margin: 1rem 1rem 0rem 2rem;
+    list-style: none;
+
+ width: 1rem;
+white-space: nowrap;
+   
+}
+.edit {
+  position: relative;
+
+  top: 0.6rem;
+  
+}
+.update {
+ padding-left: 15rem;
+}
+
+#radiocheck {
+  position: relative;
+  left: 0.8rem;
+  top: 0rem;
+  width: 1rem;
+  border: none;
+
+}
+
+@media(max-width:415px){
+    body {
+        background: linear-gradient(to right, #4a90e2, #8e8e93);
+      }
+      #divList{ 
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        padding-top: 11rem;
+        position: relative;
+        left: 1rem;
+      }
+      #taskList {
+        background-color: #ffffff0d;
+        margin-top: 2rem;
+        width: 22rem;
+        height: 12rem;
+        position: relative;
+        top: 3rem;
+        left: 1rem; /* Adjust this value based on desired position */
+        border-radius: 2rem;
+    }
+     
+}
+@media (min-width:415px) and  (max-width:820px){
+    body {
+        background: linear-gradient(to right, #4a90e2, #8e8e93);
+      }
+      #divList{ 
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        padding-top: 11rem;
+        position: relative;
+        left: 1rem;
+      }
+      #taskList {
+        background-color: #ffffff0d;
+        margin-top: 2rem;
+        width: 22rem;
+        height: 12rem;
+        position: relative;
+        top: 3rem;
+      left: 13rem; /* Adjust this value based on desired position */
+        border-radius: 2rem;
+    }
+     
+}
+@media (min-width:820px) and  (max-width:912px){
+    body {
+        background: linear-gradient(to right, #4a90e2, #8e8e93);
+      }
+      #divList{ 
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        padding-top: 11rem;
+        position: relative;
+        left: 1rem;
+      }
+      #taskList {
+        background-color: #ffffff0d;
+        margin-top: 2rem;
+        width: 22rem;
+        height: 12rem;
+        position: relative;
+        top: 3rem;
+      left: 17rem; /* Adjust this value based on desired position */
+        border-radius: 2rem;
+    }
+     
+}
+@media (min-width:912px) and  (max-width:1024px){
+    body {
+        background: linear-gradient(to right, #4a90e2, #8e8e93);
+      }
+      #divList{ 
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        padding-top: 11rem;
+        position: relative;
+        left: 1rem;
+      }
+      #taskList {
+        background-color: #ffffff0d;
+        margin-top: 2rem;
+        width: 22rem;
+        height: 12rem;
+        position: relative;
+        top: 3rem;
+      left: 20rem; /* Adjust this value based on desired position */
+        border-radius: 2rem;
+    }
+     
+}
+@media (min-width:1024px) and  (max-width:1280px){
+    body {
+        background: linear-gradient(to right, #4a90e2, #8e8e93);
+      }
+      #divList{ 
+        display: flex;
+        justify-content: center; /* Horizontally center content */
+        padding-top: 11rem;
+        position: relative;
+        left: 1rem;
+      }
+      #taskList {
+        background-color: #ffffff0d;
+        margin-top: 2rem;
+        width: 22rem;
+        height: 12rem;
+        position: relative;
+        top: 2rem;
+      left: 28rem; /* Adjust this value based on desired position */
+        border-radius: 2rem;
+    }
+     
+}
